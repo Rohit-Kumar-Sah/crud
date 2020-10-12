@@ -1,9 +1,9 @@
 td img{
-   /* width:90px;  */
+   width:90px; 
    border-radius: 50%;
 }
 td{
-    /* padding: 40px; */
+    padding: 40px 0;
 }
 tr:nth-child(even) {background-color: #f2f2f2a4;}
 tr:nth-child(odd) {background-color: white;}
