@@ -1,0 +1,29 @@
+<tr  *ngFor="let item of mydata; let i= index">
+  <td><img src="{{item.image}}"></td>
+  <td #name>{{item.Name}} </td>
+  <td  #com>{{item.Company}} </td>
+  <td [style.display]="'none'" #tnc> <input type=text #nc required value={{item.Company}}></td>
+  <td  #des>{{item.Designation}}</td>
+  <td [style.display]="'none'" #tnd><input type=text #nd value={{item.Designation}}></td>
+  <td  #ski>{{item.skills}}</td>
+  <td [style.display]="'none'" #tns> <input type=text #ns value={{item.skills}}></td>
+  <td><button (click)="edit(i)">📝</button></td>
+  <td><button (click)="save(i)">✔</button></td>
+  <td><button (click)="delete(i)">❌</button></td>
+
+</tr>
+<!-- <tr>
+  <td>
+    <span class="gender" >
+  <input type="radio" name="gender" value="male" #m> Male
+  <input type="radio" name="gender" value="female" #f> Female </span><sup>*</sup></td>
+  <td><input #newname type="text"><sup>*</sup></td>
+  <td><input #newcompany type="text"><sup>*</sup></td>
+  <td><input #newdesig type="text"><sup>*</sup></td>
+  <td><input #newskill type="text"><sup>*</sup></td>
+  <td></td>
+
+  <td><button class="savenew" (click)="saveNew(m,f,newname,newcompany,newdesig,newskill)" #b>Save Details</button> </td>
+  <td></td>
+</tr> -->
+

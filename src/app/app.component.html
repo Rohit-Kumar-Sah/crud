@@ -1,0 +1,14 @@
+
+<div class="container">
+  <h1>Employee Records : </h1>
+<input type="text" [(ngModel)]="name">
+<table>
+ <tr>
+  <th>
+ <thead app-table-head></thead>
+  <tbody app-table-body [name]="name"></tbody>
+</th>
+
+</tr>
+</table>
+</div>

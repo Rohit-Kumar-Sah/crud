@@ -1,0 +1,25 @@
+td img{
+   /* width:90px;  */
+   border-radius: 50%;
+}
+td{
+    /* padding: 40px; */
+}
+tr:nth-child(even) {background-color: #f2f2f2a4;}
+tr:nth-child(odd) {background-color: white;}
+sup{
+    color: red;
+    font-size: larger;
+}
+tr:last-child{
+    background-color: rgba(238, 240, 167, 0.753);
+}
+.gender{
+    border: 1px solid rgba(153, 153, 153, 0.911);
+    padding: 10px;
+    align-self: start;
+}
+.savenew{
+    padding: 8px;
+    background-color: rgb(186, 188, 192);
+}

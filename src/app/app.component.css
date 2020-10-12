@@ -1,0 +1,21 @@
+table{
+    /* margin: auto; */
+border-collapse: collapse;
+}
+thead{
+    
+    color: azure;
+    background-color: rgb(27, 65, 146);
+}
+
+h1{
+    /* padding: 10px; */
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    /* width: 18%; */
+    background-color: rgba(188, 192, 125, 0.767);
+    color: rgb(3, 28, 80);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   align-self: center;
+    /* padding-left: 35px; */
+}
